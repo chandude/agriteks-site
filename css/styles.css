@@ -1,0 +1,74 @@
+.filler{
+    min-height: 95vh;
+}
+
+
+/* .partest{
+    background-image: url("../assets/cherry.jpg");
+} */
+.navlink{
+    color:white;
+}
+
+.shader{
+    /* background-color:rgb(37,08,66) !important; */
+    background: #42275a; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #42275a, #734b6d); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #42275a, #734b6d); 
+}
+
+.ubuntu{
+    font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+    font-size: larger;
+}
+
+.footer-dev{
+vertical-align: middle;
+    min-height:25px !important;
+    padding:0;
+    height:15px;
+}
+.navlink:hover{
+    color:rgb(122,193,68);
+
+}
+
+.weco{
+    display:grid;
+    grid-column-gap: 4px;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr; 
+}
+
+.weco-main{
+    padding-top:10%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:1;
+    grid-row-end: 4;
+}
+
+.weco-main-text{
+    vertical-align: middle;
+}
+.weco-side{
+    font-size:12px;
+}
+
+
+.tag {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+ }
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-size: 20px;
+}
