@@ -2,7 +2,24 @@
     min-height: 95vh;
 }
 
+.contact-info{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    
 
+}
+
+.contact-font-size{
+    font-size:15px;
+}
+.contact-address{
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:1;
+    grid-row-end: 3;
+}
 /* .partest{
     background-image: url("../assets/cherry.jpg");
 } */
