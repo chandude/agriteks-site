@@ -1,5 +1,5 @@
 .filler{
-    min-height: 95vh;
+    min-height: 92vh;
 }
 
 .contact-info{
@@ -25,6 +25,10 @@
 } */
 .navlink{
     color:white;
+}
+
+.video-names{
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .shader{
@@ -71,6 +75,7 @@ vertical-align: middle;
 .weco-side{
     font-size:12px;
 }
+
 
 
 .tag {
