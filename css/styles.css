@@ -2,6 +2,19 @@
     min-height: 92vh;
 }
 
+.opener {
+    padding-top:15%;
+    padding-left:10%;
+    padding-right:10%;
+    
+}
+.opener2{
+    padding-right:10%;
+    padding-left:10%;
+    float:right;
+    text-align: right;
+}
+
 .contact-info{
     display:grid;
     grid-template-columns: 1fr 1fr ;
@@ -85,6 +98,17 @@ vertical-align: middle;
     padding: 5px;
     color: #FFFFFF;
     font-weight: bold;
+ }
+
+ .quote-bg{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+ .quote{
+     text-align: right;
+     padding:30px 10px;
+     margin-right:15px;
+     position: absolute;
+     bottom:0;
  }
 
 body{
