@@ -62,11 +62,6 @@ hr{
     
  }
 
-
-input {
-    
-    display: none;
-}
 .side-wrapper>p{
     height:100%;
     margin-left:auto;
@@ -78,24 +73,4 @@ input {
     transition: 1s;
     top: 0%;
 
-}
-input:checked + label > .slide {
-    transition: 1s;
-    left: 0%;
-}
-
-input:checked + label > .top-slide{
-    transition:1s;
-    top:0%;
-}
-
-.fillup{
-    padding:0px !important;
-    height:100% !important;
-    width:100%;
-}
-.helper {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
 }
