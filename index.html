@@ -12,6 +12,7 @@
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="msapplication-config" content="icon/browserconfig.xml">
         <title>AgriTeks</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Agriteks Website">
         <meta name="author" content="Chandu Dissanayake">
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
@@ -22,8 +23,10 @@
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
+
         <link rel="stylesheet" href="materialize/css/materialize.css">
         <script src="materialize/js/materialize.min.js"></script>
+
     </head>
 
     <body>
@@ -60,7 +63,7 @@
                                                                 <div ><b>Sorting</b></div>            
                                                         </div>
                                                         <div>
-                                                                <img  style="padding-bottom: 10px"class="responsive-img icon"src="./assets/icons/clamshell.png"/>
+                                                                <img  style="height:95%;padding-bottom: 10px"class="responsive-img icon"src="./assets/icons/clamshell.png"/>
                                                                 <div ><b>Packing</b></div>            
                                                         </div>
                                                         <div >
@@ -75,11 +78,13 @@
                                               <h2>About Us</h2>
                                               <hr />
                                               <p  class="text-justify"><b>Agriteks has been servicing the blueberry industry since 2007. We are the exclusive Sales & Service for WECO Sorting & Automation, A&B Packing Equipment, and Lakewood Process Machinery in British Columbia.</b> Our product lines include but are not limited to Blueberries, Tomatoes, Cranberries, Cherries, Potatoes, and many Vegetables. Our warehouse is located in Abbotsford, BC where we stock all spare parts for all of our manufactures. We also utilize our facilities to refurbish all WECO sorters during the off-season to ensure your sorter is ready for your busy packing season. </p>
-                                      </div>
+                                              <a style="margin:10px"class = "btn-small js-scroll-trigger" href="#map">Map</a>
+                                        </div>
                                       <div id="green-panel" style="display:none" class="fill white-text ">
                                               <h2>Technical Support</h2>
                                               <hr />
                                                 <p class="text-justify"> We pride ourselves on having local service technicians to respond to all service calls 24/7.Our highly qualified service technicians all have automation backgrounds and strive to providing the best customer service for our leading state of the art technology and packing equipment.</p>
+                                                <a style="margin:10px"class = "btn-small js-scroll-trigger" href="#contact">Contact</a>
                                         </div>
 
                               </div>
@@ -123,8 +128,8 @@
                                 <img class="box-logo" src="./assets/weco-logo.png" />
                                 <div class="top-slide">
                                         <div>
-                                                <p><b>WECO</b></p>
-                                                <p style="font-size:smaller">WECO (Woodside Electronics Corporation), based in California, has been designing, manufacturing, and servicing electronic sorters for over thirty years and has thousands of units deployed worldwide. </p>
+                                                <p style="margin-bottom:2px;"><b>WECO</b></p>
+                                                <p style="font-size:smaller;margin-top:2px">WECO (Woodside Electronics Corporation), based in California, has been designing, manufacturing, and servicing electronic sorters for over thirty years and has thousands of units deployed worldwide. </p>
                                                 <a href="https://wecotek.com/" target="_blank" class="btn-small">Website</a>
                                         </div>
                                 </div>
@@ -148,7 +153,6 @@
                                                 <p><b>Eriez</b></p>
                                                 <p style="font-size:smaller">Eriez designs and manufactures separation, metal detection and materials feeding, conveying and controlling equipment for process and metalworking industries. </p>                            
                                                 <a href="https://www.eriez.com/NA/EN/eriez.htm"target="_blank" class="btn-small">Website</a>
-
                                         </div>
 
                             </div>
@@ -168,34 +172,35 @@
             </div>
         </div>
 
+        <section style="padding-top:50px;"id="map">
             <iframe
                 width="100%"
                 height="250"
                 frameborder="0" style="border:0"
                 src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDxqz3vEiVVRYag3axoy8V3obV-pYPHoOc&q=Agriteks" allowfullscreen>
                 </iframe>
-
-        <section>
+        </section>
+        <section id="contact">
                 <div class="grid-holder">
                                 
-                                <div class="contact-grid">
-                                                <h2 class="header">Contact</h2>
-                                    <div class="contact-address">
+                        <div class="contact-grid">
+                                <h2 class="header">Contact</h2>
+                                <div class="contact-address">
                                         <p><b> AgriTeks Industries Ltd. <br/>
                                                 Unit 3- 27250 58th Crescent,<br/>
                                             Langley, BC,<br/>
                                             V4W 3W7</b>
                                         </p>
-                                    </div> 
-                                    <div>   <p class="contact-font-size"><b>Robin Jayetileke <br/>
+                                </div> 
+                                <div>   <p class="contact-font-size"><b>Robin Jayetileke <br/>
                                         <i>Sales Manager</i></b><br/>
                                         Cell: 778-242-5656<br/>
                                         Office: 604-625-5654<br/>
                                         <a href="mailto:robin@agriteks.com?Subject=Inquiry" target="_top">robin@agriteks.com</a>                                  
-                                </p>
-                            </div>                                          
+                                        </p>
+                                </div>                                          
                                                                                  
-                                    <div><p class="contact-font-size"><b>Ruwan Silva  <br/>
+                                <div><p class="contact-font-size"><b>Ruwan Silva  <br/>
                                         <i>Service Technician</i></b><br/>
                                         778-878-6970<br/>
                                         <a href="mailto:ruwan@agriteks.com?Subject=Inquiry" target="_top">ruwan@agriteks.com</a>                                  
@@ -205,21 +210,51 @@
                                         <i>Service Manager</i></b><br/>
                                         778-859-1418<br/>
                                         <a href="mailto:sim@agriteks.com?Subject=Inquiry" target="_top">sim@agriteks.com</a>                                  
-                                    </p> </div>  
+                                    </p> 
+                                </div>  
                                  
                                 <div>
                                     <p class="contact-font-size"><b>Devin Gill <br/>
-                                        <i>Service Technician</i></b><br/>
-                                        778-240-4597<br/>
+                                        <i>Service Technician</i></b>
+                                        <br/>778-240-4597<br/>
+                                        <a href="mailto:devin@agriteks.com?Subject=Inquiry" target="_top">devin@agriteks.com</a>                                  
                                     </p>
-                                    
                                 </div>
-                            </div>                         
+                                <div>
+                                    <p class="contact-font-size"><b>Thomas Le <br/>
+                                        <i>Service Technician</i></b>
+                                        <br/>604-340-2563<br/>
+                                    </p>
+                                </div>
+                                <div>
+                                    <p class="contact-font-size"><b>Karl Carpizo<br/>
+                                        <i>Service Technician</i></b>
+                                        <br/>778-982-2638<br/>
+                                        <a href="mailto:karl@agriteks.com?Subject=Inquiry" target="_top">karl@agriteks.com</a>                                  
+
+                                    </p>
+                                </div>
+                                    
+                        </div>                         
                 </div>
         </section>
 
-        <footer >Chandu Dissanayake 2018</footer>
+        <div class="closer">
+                <div style="margin:0 auto; width:90%" class="white-text">             
+                        <h4 >We look forward to hearing from you!</h4>
+                        <p> <br/>
+                               <br/>
+                                <br/>
+                            
+                        </p>
+                </div>
+        </div>
+
+        <footer class="black white-text right-align" style="font-size:x-small">Chandu Dissanayake 2018</footer>
     </body>
+    <script src="scripts/scrolling-nav.js"></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
+    
 
     <script>
             var activePanel = $("#blue-panel")
