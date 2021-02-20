@@ -1,7 +1,8 @@
 <!doctype html>
 
 <html lang="en">
-    <head>
+
+<head>
         <link rel="apple-touch-icon" sizes="76x76" href="icon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
@@ -19,258 +20,321 @@
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="flipcard.css">
 
-        <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
         <link rel="stylesheet" href="materialize/css/materialize.css">
         <script src="materialize/js/materialize.min.js"></script>
 
-    </head>
+</head>
 
-    <body>
-         <div style="height:85px;" class="navbar-fixed">
-            <nav style="height:85px;" >
-                    <div class="white nav-wrapper">
-                        <a href="#" style="height:100%" class="black-text brand-logo left"> <img style="height:100%;padding:15px 20px;" src="./assets/logogray.png">
-                        </a>
-                        <ul id="nav-mobile" class="left hide-on-med-and-down">
-                           
-                        </ul>
-                    </div>
+<body>
+        <div style="height:85px;" class="navbar-fixed">
+                <nav style="height:85px;">
+                        <div class="white nav-wrapper">
+                                <a href="#" style="height:100%" class="black-text brand-logo left"> <img
+                                                style="height:100%;padding:15px 20px;" src="./assets/logogray.png">
+                                </a>
+                                <ul id="nav-mobile" class="left hide-on-med-and-down">
+
+                                </ul>
+                        </div>
                 </nav>
         </div>
 
-                <div class="bg">
+        <div class="bg">
                 <div class="grid-holder">
-            <div class="grid white-text center-align">
-                <div class="a">
-                        
-                              <div class="side-wrapper">
-                                      <div id="blue-panel" class="fill ">
-                                              <div>
-                                                        <img style="max-width:100%;max-height:150px;padding: 35px 50px 15px;margin:auto;display:block"src="assets/logogray.png"/>
-                                                        <hr />
-                                              </div>
-                                              <div style="padding-top:40px;" class="icon-grid">
-                                                        <div >
-                                                                <img class="responsive-img icon "src="./assets/icons/harvester.png"/>
-                                                                <div ><b>Harvesting</b></div>            
-                                                        </div>
-                                                        <div >
-                                                                <img  class="responsive-img icon "src="./assets/icons/camera.png"/>
-                                                                <div ><b>Sorting</b></div>            
-                                                        </div>
+                        <div class="grid white-text center-align">
+                                <div class="a">
+
+                                        <div class="side-wrapper">
+                                                <div id="blue-panel" class="fill ">
                                                         <div>
-                                                                <img  style="height:95%;padding-bottom: 10px"class="responsive-img icon"src="./assets/icons/clamshell.png"/>
-                                                                <div ><b>Packing</b></div>            
+                                                                <img style="max-width:100%;max-height:150px;padding: 35px 50px 15px;margin:auto;display:block"
+                                                                        src="assets/logogray.png" />
+                                                                <hr />
                                                         </div>
-                                                        <div >
-                                                                <img  style="padding-bottom: 10px"class="responsive-img icon"src="./assets/icons/food.png"/>
-                                                                <div ><b>Food Safety</b></div>            
+                                                        <div style="padding-top:40px;padding-bottom:80px;"
+                                                                class="icon-grid">
+                                                                <div>
+                                                                        <img class="responsive-img icon "
+                                                                                src="./assets/icons/harvester.png" />
+                                                                        <div><b>Harvesting</b></div>
+                                                                </div>
+                                                                <div>
+                                                                        <img class="responsive-img icon "
+                                                                                src="./assets/icons/camera.png" />
+                                                                        <div><b>Sorting</b></div>
+                                                                </div>
+                                                                <div>
+                                                                        <img style="height:95%;padding-bottom: 10px"
+                                                                                class="responsive-img icon"
+                                                                                src="./assets/icons/clamshell.png" />
+                                                                        <div><b>Packing</b></div>
+                                                                </div>
+                                                                <div>
+                                                                        <img style="padding-bottom: 10px"
+                                                                                class="responsive-img icon"
+                                                                                src="./assets/icons/food.png" />
+                                                                        <div><b>Food Safety</b></div>
+                                                                </div>
+
                                                         </div>
 
-                                              </div>
+                                                </div>
+                                                <div id="red-panel" style="display:none" class="fill white-text ">
+                                                        <h2>About Us</h2>
+                                                        <hr />
+                                                        <p class="text-justify"><b>Agriteks has been servicing the
+                                                                        blueberry industry since 2007. We are the
+                                                                        exclusive Sales & Service for WECO Sorting &
+                                                                        Automation, A&B Packing Equipment, and Lakewood
+                                                                        Process Machinery in British Columbia.</b> Our
+                                                                product lines include but are not limited to
+                                                                Blueberries, Tomatoes, Cranberries, Cherries, Potatoes,
+                                                                and many Vegetables. Our warehouse is located in
+                                                                Abbotsford, BC where we stock all spare parts for all of
+                                                                our manufactures. We also utilize our facilities to
+                                                                refurbish all WECO sorters during the off-season to
+                                                                ensure your sorter is ready for your busy packing
+                                                                season. </p>
+                                                        <a style="margin:10px" class="btn-small js-scroll-trigger"
+                                                                href="#map">Map</a>
+                                                </div>
+                                                <div id="green-panel" style="display:none" class="fill white-text ">
+                                                        <h2>Technical Support</h2>
+                                                        <hr />
+                                                        <p class="text-justify"> We pride ourselves on having local
+                                                                service technicians to respond to all service calls
+                                                                24/7.Our highly qualified service technicians all have
+                                                                automation backgrounds and strive to providing the best
+                                                                customer service for our leading state of the art
+                                                                technology and packing equipment.</p>
+                                                        <a style="margin:10px" class="btn-small js-scroll-trigger"
+                                                                href="#contact">Contact</a>
+                                                </div>
 
-                                      </div>
-                                      <div id="red-panel"style="display:none" class="fill white-text ">
-                                              <h2>About Us</h2>
-                                              <hr />
-                                              <p  class="text-justify"><b>Agriteks has been servicing the blueberry industry since 2007. We are the exclusive Sales & Service for WECO Sorting & Automation, A&B Packing Equipment, and Lakewood Process Machinery in British Columbia.</b> Our product lines include but are not limited to Blueberries, Tomatoes, Cranberries, Cherries, Potatoes, and many Vegetables. Our warehouse is located in Abbotsford, BC where we stock all spare parts for all of our manufactures. We also utilize our facilities to refurbish all WECO sorters during the off-season to ensure your sorter is ready for your busy packing season. </p>
-                                              <a style="margin:10px"class = "btn-small js-scroll-trigger" href="#map">Map</a>
                                         </div>
-                                      <div id="green-panel" style="display:none" class="fill white-text ">
-                                              <h2>Technical Support</h2>
-                                              <hr />
-                                                <p class="text-justify"> We pride ourselves on having local service technicians to respond to all service calls 24/7.Our highly qualified service technicians all have automation backgrounds and strive to providing the best customer service for our leading state of the art technology and packing equipment.</p>
-                                                <a style="margin:10px"class = "btn-small js-scroll-trigger" href="#contact">Contact</a>
-                                        </div>
-
-                              </div>
-                </div>
-                <div class="b">
-                        <div class="side-wrapper">
-                                <div id="b-blue"onclick="scaler('blue',this.id)"style="display:none;" class="fill blue-hover">
-                                        <img class="box-logo" style="padding:10px;"src="assets/logo.png"/>
                                 </div>
-                                 <div id="b-red"onclick="scaler('red',this.id)" class="fill valign-wrapper white-text green-hover">
-                                         <div style="width:100%"class="center-align ">
-                                                        <h4 style="padding:10px;">About Us</h4>
-                                         </div>
-                                 </div>
-                                 <div id="b-green" onclick="scaler('green',this.id)" style="display:none" class="fill valign-wrapper white-text yellow-hover">
-                                                <div style="width:100%"class="center-align">
-                                                                <h4 style="padding:10px;">Technical Support</h4>
-                                                 </div>
-                                 </div>
-                             
-                        </div>
-                </div>
-                <div class="c">
-                        <div class="side-wrapper">
-                               
-                                <div id="c-blue"onclick="scaler('blue',this.id)"style=" display:none;" class="blue-hover fill ">                                       
-                                        <img class="box-logo"src="assets/logo.png"/>
-                                </div>
-                                 <div id="c-red"onclick="scaler('red',this.id)" style="display:none" class="green-hover fill valign-wrapper white-text ">
-                                                <div style="width:100%"class="center-align">
+                                <div class="b">
+                                        <div class="side-wrapper">
+                                                <div id="b-blue" onclick="scaler('blue',this.id)" style="display:none;"
+                                                        class="fill blue-hover">
+                                                        <img class="box-logo" style="padding:10px;"
+                                                                src="assets/logo.png" />
+                                                </div>
+                                                <div id="b-red" onclick="scaler('red',this.id)"
+                                                        class="fill valign-wrapper white-text green-hover">
+                                                        <div style="width:100%" class="center-align ">
                                                                 <h4 style="padding:10px;">About Us</h4>
-                                                 </div></div>
-                                 <div id="c-green" onclick="scaler('green',this.id)" class="yellow-hover fill valign-wrapper white-text ">
-                                                <div style="width:100%"class="center-align">
+                                                        </div>
+                                                </div>
+                                                <div id="b-green" onclick="scaler('green',this.id)" style="display:none"
+                                                        class="fill valign-wrapper white-text yellow-hover">
+                                                        <div style="width:100%" class="center-align">
                                                                 <h4 style="padding:10px;">Technical Support</h4>
-                                                 </div></div>
+                                                        </div>
+                                                </div>
+
+                                        </div>
+                                </div>
+                                <div class="c">
+                                        <div class="side-wrapper">
+
+                                                <div id="c-blue" onclick="scaler('blue',this.id)" style=" display:none;"
+                                                        class="blue-hover fill ">
+                                                        <img class="box-logo" src="assets/logo.png" />
+                                                </div>
+                                                <div id="c-red" onclick="scaler('red',this.id)" style="display:none"
+                                                        class="green-hover fill valign-wrapper white-text ">
+                                                        <div style="width:100%" class="center-align">
+                                                                <h4 style="padding:10px;">About Us</h4>
+                                                        </div>
+                                                </div>
+                                                <div id="c-green" onclick="scaler('green',this.id)"
+                                                        class="yellow-hover fill valign-wrapper white-text ">
+                                                        <div style="width:100%" class="center-align">
+                                                                <h4 style="padding:10px;">Technical Support</h4>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="d vendor-box">
+                                        <div class="side-wrapper">
+                                                <img class="box-logo" src="./assets/weco-logo.png" />
+                                                <div class="top-slide">
+                                                        <div>
+                                                                <p style="margin-bottom:2px;"><b>WECO</b></p>
+                                                                <p style="font-size:smaller;margin-top:2px">WECO
+                                                                        (Woodside Electronics Corporation), based in
+                                                                        California, has been designing, manufacturing,
+                                                                        and servicing electronic sorters for over thirty
+                                                                        years and has thousands of units deployed
+                                                                        worldwide. </p>
+                                                                <a href="https://wecotek.com/" target="_blank"
+                                                                        class="btn-small">Website</a>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="vendor-box">
+                                        <div class="side-wrapper ">
+                                                <img class="box-logo" src="./assets/anbwhite.png" />
+                                                <div class="top-slide">
+                                                        <p><b>A & B</b></p>
+                                                        <p style="font-size:smaller">A&B Packing Equipment is a family
+                                                                owned U.S. company with a multi-agricultural background
+                                                                that design and manufacture cutting-edge equipment for
+                                                                the 2lst Century. </p>
+                                                        <a href="http://abpacking.com/" target="_blank"
+                                                                class="btn-small">Website</a>
+
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="vendor-box">
+                                        <div class="side-wrapper">
+                                                <img class="box-logo" src="./assets/eriez-logo.png" />
+                                                <div class="top-slide">
+                                                        <p><b>Eriez</b></p>
+                                                        <p style="font-size:smaller">Eriez designs and manufactures
+                                                                separation, metal detection and materials feeding,
+                                                                conveying and controlling equipment for process and
+                                                                metalworking industries. </p>
+                                                        <a href="https://www.eriez.com/NA/EN/eriez.htm" target="_blank"
+                                                                class="btn-small">Website</a>
+                                                </div>
+
+                                        </div>
+                                </div>
+                                <div class="vendor-box ">
+                                        <div class="side-wrapper">
+                                                <img class="box-logo" src="./assets/hft-logo.png" />
+                                                <div class="top-slide">
+                                                        <p><b>Highland Fresh</b></p>
+                                                        <p style="font-size:smaller">Highland Fresh Technologies
+                                                                features products specifically formulated to work under
+                                                                real world conditions in the fresh produce industry to
+                                                                provide quality, food safety and sanitation. </p>
+                                                        <a href="https://www.highlandprecisionag.com/" target="_blank"
+                                                                class="btn-small">Website</a>
+
+                                                </div>
+                                        </div>
+                                </div>
                         </div>
                 </div>
-                <div class="d vendor-box">
-                        <div class="side-wrapper">
-                                <img class="box-logo" src="./assets/weco-logo.png" />
-                                <div class="top-slide">
-                                        <div>
-                                                <p style="margin-bottom:2px;"><b>WECO</b></p>
-                                                <p style="font-size:smaller;margin-top:2px">WECO (Woodside Electronics Corporation), based in California, has been designing, manufacturing, and servicing electronic sorters for over thirty years and has thousands of units deployed worldwide. </p>
-                                                <a href="https://wecotek.com/" target="_blank" class="btn-small">Website</a>
-                                        </div>
-                                </div>
-                            </div>
-                </div>
-                <div class="vendor-box">
-                        <div class="side-wrapper ">
-                                <img class="box-logo" src="./assets/anbwhite.png" />
-                                <div class="top-slide">
-                                                <p><b>A & B</b></p>
-                                                <p style="font-size:smaller">A&B Packing Equipment is a family owned U.S. company with a multi-agricultural background that design and manufacture cutting-edge equipment for the 2lst Century. </p>                            
-                                                <a href="http://abpacking.com/" target="_blank" class="btn-small">Website</a>
-
-                                        </div>
-                            </div>
-                </div>
-                <div class="vendor-box">
-                        <div class="side-wrapper">
-                                <img class="box-logo" src="./assets/eriez-logo.png" />
-                                <div class="top-slide">
-                                                <p><b>Eriez</b></p>
-                                                <p style="font-size:smaller">Eriez designs and manufactures separation, metal detection and materials feeding, conveying and controlling equipment for process and metalworking industries. </p>                            
-                                                <a href="https://www.eriez.com/NA/EN/eriez.htm"target="_blank" class="btn-small">Website</a>
-                                        </div>
-
-                            </div>
-                </div>
-                <div class="vendor-box ">
-                        <div class="side-wrapper">
-                                <img class="box-logo" src="./assets/hft-logo.png" />
-                                <div class="top-slide">
-                                                <p><b>Highland Fresh</b></p>
-                                                <p style="font-size:smaller">Highland Fresh Technologies features products specifically formulated to work under real world conditions in the fresh produce industry to provide quality, food safety and sanitation. </p>  
-                                                <a href="https://www.highlandprecisionag.com/" target="_blank" class="btn-small">Website</a>
-                          
-                                </div>
-                            </div>
-                </div>
-        </div>
-            </div>
         </div>
 
-        <section style="padding-top:50px;"id="map">
-            <iframe
-                width="100%"
-                height="250"
-                frameborder="0" style="border:0"
-                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDxqz3vEiVVRYag3axoy8V3obV-pYPHoOc&q=Agriteks" allowfullscreen>
+        <section style="padding-top:50px;" id="map">
+                <iframe width="100%" height="250" frameborder="0" style="border:0"
+                        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDxqz3vEiVVRYag3axoy8V3obV-pYPHoOc&q=Agriteks"
+                        allowfullscreen>
                 </iframe>
         </section>
         <section id="contact">
                 <div class="grid-holder">
-                                
-                        <div class="contact-grid">
-                                <h2 class="header">Contact</h2>
-                                <div class="contact-address">
-                                        <p><b> AgriTeks Industries Ltd. <br/>
-                                                Unit 3- 27250 58th Crescent,<br/>
-                                            Langley, BC,<br/>
-                                            V4W 3W7</b>
-                                        </p>
-                                </div> 
-                                <div>   <p class="contact-font-size"><b>Robin Jayetileke <br/>
-                                        <i>Sales Manager</i></b><br/>
-                                        Cell: 778-242-5656<br/>
-                                        Office: 604-625-5654<br/>
-                                        <a href="mailto:robin@agriteks.com?Subject=Inquiry" target="_top">robin@agriteks.com</a>                                  
-                                        </p>
-                                </div>                                          
-                                                                                 
-                                <div><p class="contact-font-size"><b>Ruwan Silva  <br/>
-                                        <i>Service Technician</i></b><br/>
-                                        778-878-6970<br/>
-                                        <a href="mailto:ruwan@agriteks.com?Subject=Inquiry" target="_top">ruwan@agriteks.com</a>                                  
-                                    </p>
-                                </div>
-                                <div><p class="contact-font-size"><b>Sim Buttar <br/>
-                                        <i>Service Manager</i></b><br/>
-                                        778-859-1418<br/>
-                                        <a href="mailto:sim@agriteks.com?Subject=Inquiry" target="_top">sim@agriteks.com</a>                                  
-                                    </p> 
-                                </div>  
-                                 
-                                <div>
-                                    <p class="contact-font-size"><b>Devin Gill <br/>
-                                        <i>Service Technician</i></b>
-                                        <br/>778-240-4597<br/>
-                                        <a href="mailto:devin@agriteks.com?Subject=Inquiry" target="_top">devin@agriteks.com</a>                                  
-                                    </p>
-                                </div>
-                                <div>
-                                    <p class="contact-font-size"><b>Thomas Le <br/>
-                                        <i>Service Technician</i></b>
-                                        <br/>604-340-2563<br/>
-                                    </p>
-                                </div>
-                                <div>
-                                    <p class="contact-font-size"><b>Karl Carpizo<br/>
-                                        <i>Service Technician</i></b>
-                                        <br/>778-982-2638<br/>
-                                        <a href="mailto:karl@agriteks.com?Subject=Inquiry" target="_top">karl@agriteks.com</a>                                  
 
-                                    </p>
+                        <div class="contact-grid">
+                                
+                                <div class="contact-address">
+                                                <h2 class="header" style="margin:1.5rem 0 0.75rem;">Contact</h2>
+                                                
+                                        <p><b> AgriTeks Consulting Ltd. <br />
+                                                Unit 11 - 27350 58th Crescent,<br />
+                                                Langley, BC,<br />
+                                                V4W 3W7</b>
+                                        </p>
+                                       
                                 </div>
-                                    
-                        </div>                         
+                                <div>
+                                        <p class="contact-font-size"><b>Robin Jayetileke <br />
+                                                        <i>Sales Manager</i></b><br />
+                                                        <a href="tel:778-242-5656">778-242-5656</a><br />
+                                                
+                                                <a href="mailto:robin@agriteks.com?Subject=Inquiry"
+                                                        target="_top">robin@agriteks.com</a>
+                                        </p>
+                                </div>
+
+                                <div style="margin-right:0.5rem;">
+                                        <p class="contact-font-size"><b>Ruwan Silva <br />
+                                                        <i>Service Technician</i></b><br />
+                                                        <a href="tel:778-878-6970">778-878-6970</a><br />
+                                                <a href="mailto:ruwan@agriteks.com?Subject=Inquiry"
+                                                        target="_top">ruwan@agriteks.com</a>
+                                        </p>
+                                </div>
+                                <div>
+                                        <p class="contact-font-size"><b>Sim Buttar <br />
+                                                        <i>Service Manager</i></b><br />
+                                                        <a href="tel:778-859-1418">778-859-1418</a><br />
+                                                <a href="mailto:sim@agriteks.com?Subject=Inquiry"
+                                                        target="_top">sim@agriteks.com</a>
+                                        </p>
+                                </div>
+
+                                <div style="margin-right:0.5rem;">
+                                        <p class="contact-font-size"><b>Hardeep Singh<br />
+                                                        <i>Service Technician</i></b>
+                                                <br /><a href="tel:306-461-3131">306-461-3131</a><br />
+                                                <a href="mailto:hardeep@agriteks.com?Subject=Inquiry"
+                                                        target="_top">hardeep@agriteks.com</a>
+                                        </p>
+                                </div>
+                                <div>
+                                        <p class="contact-font-size"><b>Thomas Le <br />
+                                                        <i>Service Technician</i></b>
+                                                <br /><a href="tel:604-340-2563">604-340-2563</a><br />
+                                                <a href="mailto:thomas@agriteks.com?Subject=Inquiry"
+                                                        target="_top">thomas@agriteks.com</a>
+                                        </p>
+                                </div>
+                                <div>
+                                        <p class="contact-font-size"><b>Karl Carpizo<br />
+                                                        <i>Service Technician</i></b>
+                                                <br /><a href="tel:778-982-2638">778-982-2638</a><br />
+                                                <a href="mailto:karl@agriteks.com?Subject=Inquiry"
+                                                        target="_top">karl@agriteks.com</a>
+
+                                        </p>
+                                </div>
+
+                        </div>
                 </div>
         </section>
 
         <div class="closer">
-                <div style="margin:0 auto; width:90%" class="white-text">             
-                        <h4 >We look forward to hearing from you!</h4>
-                        <p> <br/>
-                               <br/>
-                                <br/>
-                            
+                <div style="margin:0 auto; width:90%" class="white-text">
+                        <h4>We look forward to hearing from you!</h4>
+                        <p> <br />
+                                <br />
+                                <br />
+
                         </p>
                 </div>
         </div>
 
-        <footer class="black white-text right-align" style="font-size:x-small">Chandu Dissanayake 2018</footer>
-    </body>
-    <script src="scripts/scrolling-nav.js"></script>
-    <script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
-    
+        <!-- <footer class="black white-text right-align" style="font-size:x-small">Chandu Dissanayake 2018</footer> -->
+</body>
+<script src="scripts/scrolling-nav.js"></script>
+<script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
 
-    <script>
-            var activePanel = $("#blue-panel")
-            var activeColor = "blue";
 
-            function scaler(panel,button_id){
-                    activePanel.fadeToggle("slow",function(){
-                        $("#"+panel+"-panel").fadeToggle("slow")
-                        activePanel = $("#"+panel+"-panel")
+<script>
+        var activePanel = $("#blue-panel")
+        var activeColor = "blue";
 
-                    });
-                    $("#"+button_id).fadeToggle("slow",function(){
-                        $("#"+button_id[0]+"-"+activeColor).fadeToggle("slow")
+        function scaler(panel, button_id) {
+                activePanel.fadeToggle("slow", function () {
+                        $("#" + panel + "-panel").fadeToggle("slow")
+                        activePanel = $("#" + panel + "-panel")
+
+                });
+                $("#" + button_id).fadeToggle("slow", function () {
+                        $("#" + button_id[0] + "-" + activeColor).fadeToggle("slow")
                         activeColor = panel;
-                    });
-                   
-             }
-    </script>
+                });
 
+        }
+</script>
