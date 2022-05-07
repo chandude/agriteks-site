@@ -42,7 +42,7 @@ nav{
     max-height: 100px;
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 }
 .btn-small{
     background-color: transparent !important;
@@ -78,9 +78,8 @@ nav{
     }
     .contact-grid{
 
-        grid-template-columns: 2fr 1fr 1fr 1fr;
+        grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        grid-auto-flow: column
     }
 
     .a{
